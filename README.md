@@ -9,7 +9,7 @@
   
 2. Clone repository using: 
 
-`git clone git@github.com:benee55/workshop.git`
+`git clone git@github.com:benlee55psu/workshop.git`
 
 ### Method 2. Copy Directly to ACI
 1. Go to the github site https://github.com/benlee55psu/workshop
