@@ -111,7 +111,7 @@
 `scp <userid>@datamgr.aci.ics.psu.edu:~/workshop/exercise4/. <LocalDirectory>/workshop/exercise4/.`
 
 
-### Exercise 5 - Run Toy Example using 10 processors Simultaneously + Sending in 10 jobs
+### Exercise 5 - Run Toy Example by iteratively submitting 20 jobs with 1 processor per job
 1. Go to the proper directory 
 
 `cd ~/work/workshop/exercise5/`
