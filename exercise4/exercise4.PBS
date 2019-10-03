@@ -1,0 +1,21 @@
+#PBS -l nodes=2:ppn=20
+#PBS -l walltime=00:15:00
+#PBS -A open
+#PBS -j oe
+
+echo " "
+echo " "
+echo "Job started on `hostname` at `date`"
+
+cd $PBS_O_WORKDIR
+
+module load gcc/5.3.1
+module load openmpi/1.10.1
+
+mpirun -np 1  -machinefile $PBS_NODEFILE  Rscript exercise4.R
+
+
+echo " "
+echo "Job Ended at `date`"
+echo " "
+
