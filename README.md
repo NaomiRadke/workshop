@@ -14,8 +14,8 @@
 ### Method 2. Copy Directly to ACI
 1. Go to the github site https://github.com/benee55/workshop
 2. Click on the green "clone or download" button. Download ZIP. 
-3. Unzip files and note the local directory of the workshop files
-4. Copy workshop folder to ACI. Open the command line on your local machine. Then type in the following:
+3. Unzip files and note the local directory of the workshop directory
+4. Copy workshop directory to ACI. Open the command line on your local machine. Then type in the following:
 
 `cd ~/<LocalDirectory>`
 
